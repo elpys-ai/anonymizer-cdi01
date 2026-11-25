@@ -1,0 +1,8 @@
+--- before/anonymizer.py
++++ after/anonymizer.py
+@@ -71,3 +71,3 @@
+     def on_click():
+-        text = source.get('1.0', 'end').strip()
+-        if not text:
++        text = source.get('1.0', 'end-1c')
++        if not text.strip():

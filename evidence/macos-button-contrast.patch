@@ -1,0 +1,15 @@
+--- before/anonymizer.py
++++ after/anonymizer.py
+@@ -62,9 +62,10 @@
+                                        bg=TSVET_PANELI, fg=TSVET_TEKSTA, relief='flat')
+     source.pack(fill='both', expand=True, padx=24, pady=6)
+ 
++    button_fg = TSVET_TEKSTA if root.tk.call('tk', 'windowingsystem') == 'aqua' else '#ffffff'
+     button = tk.Button(root, text='Скрыть данные', font=('Segoe UI', 13, 'bold'),
+-                       bg=TSVET_KNOPKI, fg='#ffffff', activebackground='#245a42',
+-                       activeforeground='#ffffff', relief='flat', padx=18, pady=8, cursor='hand2')
++                       bg=TSVET_KNOPKI, fg=button_fg, activebackground='#245a42',
++                       activeforeground=button_fg, relief='flat', padx=18, pady=8, cursor='hand2')
+ 
+     status = tk.Label(root, text='', font=('Segoe UI', 11), bg=TSVET_FONA, fg=TSVET_TEKSTA)
+ 

@@ -1,0 +1,19 @@
+test_apartment_example (__main__.AnonymizerTests.test_apartment_example) ... ok
+test_buyer_example (__main__.AnonymizerTests.test_buyer_example) ... ok
+test_card_length_boundaries (__main__.AnonymizerTests.test_card_length_boundaries) ... ok
+test_card_preserves_following_space (__main__.AnonymizerTests.test_card_preserves_following_space) ... ok
+test_card_separators (__main__.AnonymizerTests.test_card_separators) ... ok
+test_counters_and_repeat (__main__.AnonymizerTests.test_counters_and_repeat) ... ok
+test_email_case (__main__.AnonymizerTests.test_email_case) ... ok
+test_empty_function_input (__main__.AnonymizerTests.test_empty_function_input) ... ok
+test_no_personal_data (__main__.AnonymizerTests.test_no_personal_data) ... ok
+test_phone_formats (__main__.AnonymizerTests.test_phone_formats) ... ok
+test_blank_inputs_clear_result (__main__.ButtonHandlerTests.test_blank_inputs_clear_result) ... ok
+test_checklist_examples_through_button (__main__.ButtonHandlerTests.test_checklist_examples_through_button) ... ok
+test_masked_text_preserves_edge_whitespace (__main__.ButtonHandlerTests.test_masked_text_preserves_edge_whitespace) ... ok
+test_plain_text_preserves_edge_whitespace (__main__.ButtonHandlerTests.test_plain_text_preserves_edge_whitespace) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.015s
+
+OK
